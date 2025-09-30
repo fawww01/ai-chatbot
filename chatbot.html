@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>AI Chatbot SPP</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="chatbot-container" id="chatbot">
+    <div class="chat-header">🤖 AI Chatbot</div>
+    <div class="chat-messages" id="chat-messages">
+      <div class="message bot">Halo! Saya chatbot AI. Silakan tanya apa saja 😊</div>
+    </div>
+    <div class="chat-input">
+      <input type="text" id="user-input" placeholder="Tanyakan apa saja..." />
+      <button onclick="sendMessage()">Kirim</button>
+    </div>
+  </div>
+
+  <button class="chat-toggle" onclick="toggleChat()">💬</button>
+
+  <script src="chatbot.js"></script>
+</body>
+</html>
